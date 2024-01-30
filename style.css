@@ -1,0 +1,34 @@
+.input { 
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    outline: none;
+    padding: 10px 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    border: 2px solid black;
+    border: none;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    top: 9px;
+    right: 403px;
+    width: 99px;
+    padding: 9px 20px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+.box {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
